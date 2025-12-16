@@ -54,10 +54,11 @@ body {
     padding-right: var(--space-md);
 }
 
-:focus {
+
+/* :focus {
     outline: 3px solid var(--accent-20);
     outline-offset: 2px;
-}
+} */
 
 :focus:not(:focus-visible) {
     outline: none;
@@ -176,6 +177,7 @@ body {
 
 .button:hover {
     background: #ededf0;
+    color: #241f38;
     transform: translateY(-2px);
 }
 
@@ -183,10 +185,11 @@ body {
     transform: translateY(0);
 }
 
-.button:focus {
+
+/* .button:focus {
     outline: 3px solid var(--accent-20);
     outline-offset: 2px;
-}
+} */
 
 .button--primary {
     background: var(--accent);
@@ -196,6 +199,7 @@ body {
 
 .button--primary:hover {
     background: #241f38;
+    background: #ededf0;
 }
 
 .button--ghost {
@@ -704,11 +708,12 @@ body {
     }
 }
 
-.footer__button:focus,
+
+/* .footer__button:focus,
 .footer__input:focus {
     outline: 3px solid rgba(255, 255, 255, 0.12);
     outline-offset: 2px;
-}
+} */
 
 .story {
     margin-bottom: var(--space-lg);
@@ -743,12 +748,13 @@ a {
     color: inherit;
 }
 
-a:focus,
+
+/* a:focus,
 button:focus,
 input:focus {
     outline: 3px solid var(--accent-20);
     outline-offset: 2px;
-}
+} */
 
 hr {
     border: none;
